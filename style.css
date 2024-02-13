@@ -293,3 +293,30 @@ html {
 #btn-blue-modal-load {
     margin-top: 30px;
 }
+
+@media only screen and (max-width: 1300px) and (orientation : landscape) {
+    .modal-content-aud {
+        width: 90%;
+        height: 90%;
+    }
+
+    .modal-content-aud-one {
+        width: 90%;
+        height: 90%;
+    }
+
+    .modal-content-net {
+        width: 90%;
+        height: 90%;
+    }
+
+    .modal-content-net-two {
+        width: 90%;
+        height: 90%;
+    }
+
+    .modal-content-log {
+        width: 90%;
+        height: 90%;
+    }
+}
