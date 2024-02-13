@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Five9 Troubleshooting App</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+    <link rel="stylesheet" href="style.css">
+
+
+</head>
+
+<body>
+    <section class="main-head">
+        <h1 class="main-title">Welcome to the Five9 Troubleshooting Application</h1>
+        <h3>Click one of the options to get started</h3>
+        <button id="modalLinkAud" class="btn-blue">Audio Issues</button>
+        <button id="modalLinkNet" class="btn-blue">Networking Issues</button>
+        <button id="modalLinkLoad" class="btn-blue">Loading Issues</button>
+        <button id="modalLinkLog" class="btn-blue">Logging In Issues</button>
+
+    </section>
+
+    <section class="three-cards">
+        <div class="three-card-container">
+            <div class="bg-modal-net">
+                <div class="modal-content-net-one">
+                    <div class="close">+</div>
+                    <h1 class="title">Network Troubleshoot</h1>
+                    <div class="modal-content-center">
+                        <article>
+                            <h1 class="modal-h1">Check Network Stability</h1>
+                            <div class="img-container">
+                                <img class="modal-img" src="img/ns.jpg" />
+                            </div>
+                        </article>
+                        <article>
+                            <h1 class="modal-h1">Open Chrome Browser and type speed test in the address bar</h1>
+                            <div class="img-container">
+                                <img class="modal-img" src="img/st.jpg" />
+                            </div>
+                            <h1 class="modal-h1">Compare speeds from the users ISP</h1>
+                        </article>
+
+                    </div>
+                    <button id="btn-blue-modal-one" class="btn-blue-modal-one">Next</button>
+                </div>
+            </div>
+            <div class="bg-modal-net-two">
+                <div class="modal-content-net-two">
+                    <div class="close">+</div>
+                    <h1 class="title">Next Checks</h1>
+                    <div class="modal-content-net">
+                        <h1 class="modal-h1-net">Check Speeds On Personal Devices</h1>
+                        <h1 class="modal-h1-net">If all devices are slow reboot router</h1>
+                        <h1 class="modal-h1-net">If work device is slow restart laptop</h1>
+                        <h1 class="modal-h1-net">If that doesn't work reinstall network adapters</h1>
+                        <h1 class="modal-h1-net">Check if they are hardwired</h1>
+                        <h1 class="modal-h1-net">Reboot router</h1>
+                        <h1 class="modal-h1-net">Cross reference data speeds from wifi and ethernet</h1>
+                        <h1 class="modal-h1-net">If all fails escalate issue to Five9 admin</h1>
+
+                    </div>
+                    <button id="modalLinkNetBack" class="btn-blue-modal-one">Back</button>
+                </div>
+            </div>
+            <div class="bg-modal-load">
+                <div class="modal-content-net-one">
+                    <div class="close">+</div>
+                    <h1 class="title">Loading Troubleshoot</h1>
+                    <div class="modal-content-center">
+                        <article>
+                            <h1 class="modal-h1">Clear browsing history, cache, and cookies</h1>
+                            <div class="img-container">
+                                <img class="modal-img" src="img/history.jpg" />
+                            </div>
+                        </article>
+                        <article>
+                            <h1 class="modal-h1">What kind of error are they getting?</h1>
+
+                            <h1 class="modal-h1">Follow Network Steps</h1>
+                        </article>
+
+                    </div>
+                    <button id="btn-blue-modal-load" class="btn-blue-modal-one">Network Troubleshoot</button>
+                </div>
+            </div>
+            <div class="bg-modal-aud">
+                <div class="modal-content-aud">
+                    <div class="close">+</div>
+                    <h1 class="title">Audio Troubleshoot</h1>
+                    <div class="modal-content-aud-one">
+                        <h1 class="modal-h1-aud">Check if headset is Poly Blackwire</h1>
+                        <h1 class="modal-h1-aud">If Poly Blackwire request new Headset - use staples requitsition not
+                            Alight IT</h1>
+                        <h1 class="modal-h1-aud">Request only Jabra or Logitech </h1>
+                        <h1 class="modal-h1-aud">If not Poly Blackwire check audio setting in Five9</h1>
+                        <h1 class="modal-h1-aud">Check if correct audio device is selected</h1>
+                        <h1 class="modal-h1-aud">If settings are good in Five9 check Windows sound settings via Control
+                            Panel</h1>
+                        <h1 class="modal-h1-aud">Check audio levels and mute status of headphones and mic</h1>
+                        <h1 class="modal-h1-aud">If headphones work but not mic run online mic test</h1>
+                        <h1 class="modal-h1-aud">If mic fails online mic test try restarting the laptop and try test
+                            again before requesting new headset</h1>
+                        <h1 class="modal-h1-aud">If online mic test passes then this is an issue isolated to Five9. Have
+                            user log out and back into Five9</h1>
+                        <h1 class="modal-h1-aud">If settings are good in Windows try unplugging and plugging back in the
+                            headset</h1>
+                    </div>
+                </div>
+            </div>
+            <div class="bg-modal-log">
+                <div class="modal-content-log">
+                    <div class="close">+</div>
+                    <h1 class="title">logging In Troubleshoot</h1>
+                    <div class="modal-content-net">
+                        <h1 class="modal-h1-net">Check if username and/or password is correct</h1>
+                        <h1 class="modal-h1-net">Reset password or change username as necessary</h1>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+
+    <script src="https://kit.fontawesome.com/c3c9035355.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>

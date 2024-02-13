@@ -1,0 +1,295 @@
+:root {
+    --global-body-font: "Nunito Sans", sans-serif;
+    --global-heading-font: "Roboto Slab", serif;
+    --primary-color: #3A4C58;
+    --primary-color-rgb: rgb(58, 76, 88);
+    --secondary-color: #FFAB41;
+    --secondary-color-rgb: rgb(255, 171, 65);
+    --mainWhite: #fff;
+    --mainGray: rgb(231, 231, 231);
+    --mainSpacing: 0.5rem;
+    --secondarySpacing: 0.25rem;
+    --mainTransition: 0.5s;
+    --mainGradient: linear-gradient(135deg, rgba(153, 219, 219, 1.0), rgb(10, 89, 123));
+
+
+}
+
+/*
+* Created with https://www.css-gradient.com
+* Gradient link: https://www.css-gradient.com/?c1=99dbdb&c2=070477&gt=l&gd=dtl
+*/
+/*background: rgba(153, 219, 219, 1.0);
+background: linear-gradient(135deg, rgba(153, 219, 219, 1.0), rgba(7, 4, 119, 1.0));*/
+
+body,
+html {
+    background-color: var(--mainwhite) !important;
+    width: 100%;
+    /*min-height: calc(100vh - 100px);*/
+    margin: 0;
+}
+
+.main-title {
+    margin-top: 50px;
+}
+
+.main-head {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.three-card-container {
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    color: var(--mainWhite);
+    background-color: var(--mainWhite);
+}
+
+/*Modal One*/
+.bg-modal-net {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    /*top:0;*/
+    justify-content: center;
+    align-items: center;
+    display: none;
+
+}
+
+.btn-blue-modal-one {
+    margin-right: 10px;
+    display: inline-block;
+    cursor: pointer;
+    overflow: hidden;
+    text-decoration: none;
+    color: #FFF;
+    font-size: 1rem;
+    padding: 8px 24px;
+    border: 1px solid white;
+    outline: none;
+    background-color: var(--primary-color);
+    transition: var(--mainTransition);
+    border-radius: 30px;
+    margin-bottom: 50px;
+
+}
+
+
+.modal-content-net-one {
+    /*background: url('img/ff.png') no-repeat center center; */
+    width: 1200px;
+    height: 80vh;
+    background-color: var(--mainGray);
+    border-radius: 10px;
+    position: relative;
+}
+
+.modal-h1 {
+    margin-top: 10px;
+    text-align: left;
+    font-size: 20px;
+    color: var(--primary-color);
+}
+
+.modal-h1-net {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 20px;
+    color: var(--primary-color);
+}
+
+.modal-h1-aud {
+    margin-top: 10px;
+    text-align: left;
+    font-size: 20px;
+    color: var(--primary-color);
+}
+
+.modal-h1-sub {
+    text-align: left;
+    margin-left: 20px;
+    margin-right: 100px;
+    margin-bottom: 50px;
+    font-size: 15px;
+    color: var(--primary-color);
+}
+
+.modal-content-net-one a {
+    margin-left: 30px;
+    margin-top: 60px;
+}
+
+.modal-img {
+    width: 100%;
+    height: 100%;
+    border: 2px solid black;
+    -webkit-box-shadow: 10px 10px 5px -6px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 5px -6px rgba(0, 0, 0, 0.75);
+    box-shadow: 10px 10px 5px -6px rgba(0, 0, 0, 0.75);
+}
+
+.btn-blue {
+    margin-right: 10px;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 4px;
+    overflow: hidden;
+    text-decoration: none;
+    color: #FFF;
+    font-size: 1rem;
+    padding: 8px 24px;
+    border: 1px solid white;
+    outline: none;
+    background: var(--primary-color);
+    transition: var(--mainTransition);
+    border-radius: 30px;
+
+}
+
+
+
+.btn-blue:hover {
+    background: rgb(3, 194, 219);
+    transition: var(--mainTransition);
+}
+
+
+.close {
+    position: absolute;
+    color: black;
+    top: 0;
+    right: 14px;
+    font-size: 30px;
+    transform: rotate(45deg);
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/*Second Modal*/
+.bg-modal-net-two {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    /*top:0;*/
+    justify-content: center;
+    align-items: center;
+    display: none;
+
+}
+
+/*Audio Modal*/
+.bg-modal-aud {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+
+.modal-content-aud {
+
+    width: 900px;
+    height: 650px;
+    background-color: white;
+    border-radius: 10px;
+    position: relative;
+}
+
+/*Log Modal*/
+.bg-modal-log {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    display: none;
+
+}
+
+.modal-h1-two {
+    margin-top: 100px;
+    text-align: left;
+    margin-left: 20px;
+    font-size: 20px;
+    color: var(--primary-color);
+}
+
+.modal-img-two {
+    left: 12px;
+    position: absolute;
+    margin-left: 10px;
+    margin-top: 30px;
+    width: 50px;
+    height: 50px;
+}
+
+.modal-content-net-two {
+    width: 600px;
+    height: 600px;
+    background-color: white;
+    border-radius: 10px;
+    position: relative;
+}
+
+
+
+.modal-content-log {
+    width: 600px;
+    height: 600px;
+    background-color: white;
+    border-radius: 10px;
+    position: relative;
+}
+
+.modal-content-net {
+    text-align: center;
+}
+
+.modal-content-aud-one {
+    margin: 20px;
+    text-align: left;
+}
+
+.modal-content-center {
+    width: 90%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    grid-column-gap: 1rem;
+}
+
+.img-container {
+    width: 500px;
+    height: 300px;
+}
+
+.title {
+    color: black;
+}
+
+/*Load Modal*/
+.bg-modal-load {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    display: none;
+
+}
+
+#btn-blue-modal-load {
+    margin-top: 30px;
+}
